@@ -33,6 +33,11 @@ import Video from "../public/video.png"
 import Utility from "../public/utility.png"
 import Sport from "../public/sport.png"
 import Virtual from "../public/words.png"
+import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
+import Galaxy from "../public/distand.png"
+import Edena from "../public/dena.png"
+import Astro from "../public/fiction.png"
+import BigMashoorms from "../public/mashurms-big.png"
 
 
 
@@ -327,6 +332,32 @@ export default function Home() {
           <p className="pt-5 pl-7 text-2xl">Virtual Worlds</p>
         </div>
       </div>
+    </div>
+
+
+
+
+    {/* //////////////Discover More NFTs */}
+
+
+
+    <div className="pt-40">
+      <div className="flex justify-between">
+        <div>
+          <h2 className="text-4xl pb-3">Discover More NFTs</h2>
+          <p className="text-2xl">xplore new trending NFTs</p>
+        </div>
+        <button className="see">
+          <RemoveRedEyeIcon/>
+          See All
+        </button>
+      </div>
+      <div className="flex gap-28 pt-20">
+        <Image src={Galaxy} alt="Galax"/>
+        <Image src={Edena} alt="Galax"/>
+        <Image src={Astro} alt="Astro"/>
+      </div>
+      <Image src={BigMashoorms} alt="BigMashoorms" className="w-full h-full pt-24"/>
     </div>
 
 

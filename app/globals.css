@@ -31,6 +31,11 @@ aside{
   border-radius: 50%;
   background-color: #2B2B2B;
 }
+.see{
+  padding: 0px 50px;
+  border: 2px solid #A259FF;
+  border-radius: 20px;
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
